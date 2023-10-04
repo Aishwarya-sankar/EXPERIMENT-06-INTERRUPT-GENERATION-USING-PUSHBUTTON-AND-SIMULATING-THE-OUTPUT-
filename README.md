@@ -93,6 +93,7 @@ https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
 Name: Aishwarya S
 Reg.no: 212222100003
 ```
+```
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
 	if((GPIO_Pin == GPIO_PIN_0))
@@ -100,7 +101,7 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 		HAL_GPIO_TogglePin(GPIOA,GPIO_PIN_1);
 	}
 }
-
+```
 
 ## Output screen shots of proteus  :
 ## LED OFF
